@@ -16,7 +16,7 @@
 <body>
 <center>
     <h1>List Student</h1>
-    <h2><a href="/Students?action=creat">New student</a></h2>
+    <h2><a href="/Students?action=creat">Add new student</a></h2>
     <table border="1">
         <tr>
             <td>Name</td>
@@ -25,7 +25,7 @@
         </tr>
         <c:forEach items="${listStudents}" var="student">
             <tr>
-                <td><c:out value="${student.name}"/></td>
+                <td><a href="/Students?action=view&id=${student.id}">${student.name}</a></td>
                 <td><c:out value="${student.age}"/></td>
                 <td><c:out value="${student.address}"/></td>
             </tr>

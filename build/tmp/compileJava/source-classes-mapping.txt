@@ -2,9 +2,9 @@ model/Student.java
  model.Student
 dao/SQLConnection.java
  dao.SQLConnection
-dao/StudentDao.java
- dao.StudentDao
 dao/IDao.java
  dao.IDao
+dao/StudentDao.java
+ dao.StudentDao
 controller/StudentServlet.java
  controller.StudentServlet
